@@ -221,7 +221,16 @@
 																					</children>
 																				</StackPane>
 																				<TreeView fx:id="overlayTreeView" prefWidth="50.0" showRoot="false" VBox.vgrow="ALWAYS" />
-																				<CheckBox fx:id="overlayUseAsBaseCheckbox" mnemonicParsing="false" onAction="#overlayUseAsBaseCheckbox_onAction" styleClass="controls-padding" text="%options.pane.overlay.checkbox.use_as_base" />
+                                                            <HBox>
+                                                               <children>
+                                                                  <AnchorPane HBox.hgrow="ALWAYS">
+                                                                     <children>
+            																				<CheckBox fx:id="overlayUseAsBaseCheckbox" mnemonicParsing="false" onAction="#overlayUseAsBaseCheckbox_onAction" styleClass="controls-padding" text="%options.pane.overlay.checkbox.use_as_base" AnchorPane.leftAnchor="0.0" />
+                                                                        <CheckBox fx:id="clipPortraitCheckbox" layoutX="90.0" mnemonicParsing="false" onAction="#overlayUseAsBaseCheckbox_onAction" selected="true" styleClass="controls-padding" text="%options.pane.overlay.checkbox.clip_portrait" AnchorPane.rightAnchor="0.0" />
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </HBox>
                                                             <HBox spacing="5.0">
                                                                <children>
                                                                   <Slider fx:id="overlayTransparencySlider" blockIncrement="0.5" majorTickUnit="0.25" max="1.0" maxWidth="1.7976931348623157E308" minorTickCount="5" value="1.0" HBox.hgrow="ALWAYS" />

@@ -37,6 +37,7 @@ public class AppPreferences {
 	private static final String OVERLAY_WIDTH = "overlayWidthSpinner";
 	private static final String OVERLAY_HEIGHT = "overlayHeightSpinner";
 	private static final String OVERLAY_USE_BASE = "overlayUseAsBaseCheckbox";
+	private static final String OVERLAY_CLIP_PORTRAIT = "clipPortraitCheckbox";
 	private static final String LAST_FILE = "lastFileSaved";
 	private static final String LAST_PORTRAIT_FILE = "lastPortrait";
 	private static final String FILE_NAME_TEXT_FIELD = "fileNameTextField";
@@ -61,6 +62,7 @@ public class AppPreferences {
 		prefs.putDouble(OVERLAY_WIDTH, tokentool_Controller.getOverlayWidth());
 		prefs.putDouble(OVERLAY_HEIGHT, tokentool_Controller.getOverlayHeight());
 		prefs.putBoolean(OVERLAY_USE_BASE, tokentool_Controller.getOverlayUseAsBase());
+		prefs.putBoolean(OVERLAY_CLIP_PORTRAIT, tokentool_Controller.getClipPortraitCheckbox());
 
 		// Save naming details
 		prefs.putBoolean(USE_FILE_NUMBERING, tokentool_Controller.getUseFileNumberingCheckbox());
@@ -118,6 +120,7 @@ public class AppPreferences {
 		tokentool_Controller.setOverlayWidth(prefs.getDouble(OVERLAY_WIDTH, AppConstants.DEFAULT_OVERLAY_SIZE));
 		tokentool_Controller.setOverlayHeight(prefs.getDouble(OVERLAY_HEIGHT, AppConstants.DEFAULT_OVERLAY_SIZE));
 		tokentool_Controller.setOverlayUseAsBase(prefs.getBoolean(OVERLAY_USE_BASE, AppConstants.DEFAULT_OVERLAY_USE_BASE));
+		tokentool_Controller.setClipPortraitCheckbox(prefs.getBoolean(OVERLAY_CLIP_PORTRAIT, AppConstants.DEFAULT_OVERLAY_CLIP_PORTRAIT));
 
 		// Restore naming details
 		tokentool_Controller.setUseFileNumberingCheckbox(prefs.getBoolean(USE_FILE_NUMBERING, AppConstants.DEFAULT_USE_FILE_NUMBERING));
