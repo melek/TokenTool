@@ -42,7 +42,7 @@ public class AppConstants {
 
 	public static final boolean DEFAULT_OVERLAY_ASPECT = true;
 	public static final boolean DEFAULT_OVERLAY_USE_BASE = false;
-	public static final boolean DEFAULT_OVERLAY_CLIP_PORTRAIT = false;
+	public static final boolean DEFAULT_OVERLAY_CLIP_PORTRAIT = true;
 	public static final boolean DEFAULT_USE_FILE_NUMBERING = false;
 	public static final double DEFAULT_OVERLAY_SIZE = 256;
 

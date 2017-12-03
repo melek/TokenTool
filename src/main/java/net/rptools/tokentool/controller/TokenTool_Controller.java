@@ -882,6 +882,10 @@ public class TokenTool_Controller {
 		return backgroundColorPicker.getValue();
 	}
 
+	public void setBackgroundColor(Color newColor) {
+		backgroundColorPicker.setValue(newColor);
+	}
+
 	public void refreshCache() {
 		overlayTreeProgressBar.setStyle("");
 		overlayTreeProgressBar.setVisible(true);

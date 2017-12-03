@@ -230,7 +230,7 @@
                                                                   <FlowPane hgap="10.0" prefWidth="187.0" vgap="10.0">
                                                                      <children>
             																				<CheckBox fx:id="overlayUseAsBaseCheckbox" mnemonicParsing="false" onAction="#overlayUseAsBaseCheckbox_onAction" styleClass="controls-padding" text="%options.pane.overlay.checkbox.use_as_base" />
-                                                                        <CheckBox fx:id="clipPortraitCheckbox" mnemonicParsing="false" onAction="#overlayUseAsBaseCheckbox_onAction" selected="true" styleClass="controls-padding" text="%options.pane.overlay.checkbox.clip_portrait" />
+                                                                        <CheckBox fx:id="clipPortraitCheckbox" mnemonicParsing="false" onAction="#overlayUseAsBaseCheckbox_onAction" styleClass="controls-padding" text="%options.pane.overlay.checkbox.clip_portrait" />
                                                                      </children>
                                                                   </FlowPane>
                                                                </children>
