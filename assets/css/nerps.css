@@ -4,7 +4,7 @@ aside a.button-windows {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../assets/images/download-button-windows.png) 0 0 no-repeat;
+  background: transparent url(../images/download-button-windows.png) 0 0 no-repeat;
 }
 
 aside a.button-linux {
@@ -13,7 +13,7 @@ aside a.button-linux {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../assets/images/download-button-linux.png) 0 0 no-repeat;
+  background: transparent url(../images/download-button-linux.png) 0 0 no-repeat;
 }
 
 aside a.button-macos {
@@ -22,7 +22,7 @@ aside a.button-macos {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../assets/images/download-button-macos.png) 0 0 no-repeat;
+  background: transparent url(../images/download-button-macos.png) 0 0 no-repeat;
 }
 
 aside a.button-jar {
@@ -31,5 +31,5 @@ aside a.button-jar {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../assets/images/download-button-jar.png) 0 0 no-repeat;
+  background: transparent url(../images/download-button-jar.png) 0 0 no-repeat;
 }
