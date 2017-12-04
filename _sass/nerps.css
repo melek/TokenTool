@@ -1,0 +1,35 @@
+aside a.button-windows {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/download-button-windows.png) 0 0 no-repeat;
+}
+
+aside a.button-linux {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/download-button-linux.png) 0 0 no-repeat;
+}
+
+aside a.button-macos {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/download-button-macos.png) 0 0 no-repeat;
+}
+
+aside a.button-jar {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/download-button-jar.png) 0 0 no-repeat;
+}
