@@ -17,7 +17,7 @@ I'm proud to present a brand new version of TokenTool, Rewritten in JavaFX 8 to 
 ___
 
 
-### Check back in a few months as I work on the next version!
+### Check back in a few months as I work on the next version !
 
 New features I'm currently working on include:
 * PDF image extraction (make tokens out images from modules quick and easy!)
