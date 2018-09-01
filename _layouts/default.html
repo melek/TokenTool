@@ -21,7 +21,7 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }} {{ site.current_version }} 2.0</h1>
+          <h1>{{ site.title | default: site.github.repository_name }} {{ site.github.latest_release.tag_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
@@ -32,10 +32,6 @@
         {% endif %}
       </div>
     </header>
-
-    THIS IS A TEST: license: {{ site.github.license.name }} <br>
-Release info: {{ site.github.latest_release.tag_name }}
-    
     
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -47,22 +43,22 @@ Release info: {{ site.github.latest_release.tag_name }}
           <a href="{{ site.github.repository_url }}/blob/master/change-log.md" class="button">
               Changelog
             </a>
-            <a href="{{ site.github.releases_url }}/download/{{ site.current_version }}/TokenTool-{{ site.current_version }}.exe" class="button" 
+            <a href="{{ site.github.releases_url }}/download/{{ site.github.latest_release.tag_name }}/TokenTool-{{ site.github.latest_release.tag_name }}.exe" class="button" 
                style="background: transparent url(../assets/images/download-button-windows.png) 0 0 no-repeat; padding-left: 75px;">
               <small>Windows</small>
               .exe
             </a>
-            <a href="{{ site.github.releases_url }}/download/{{ site.current_version }}/TokenTool-{{ site.current_version }}.pkg" class="button"
+            <a href="{{ site.github.releases_url }}/download/{{ site.github.latest_release.tag_name }}/TokenTool-{{ site.github.latest_release.tag_name }}.pkg" class="button"
                style="background: transparent url(../assets/images/download-button-macos.png) 0 0 no-repeat; padding-left: 75px;">
               <small>MacOS</small>
               .pkg
             </a>
-            <a href="{{ site.github.releases_url }}/download/{{ site.current_version }}/TokenTool-{{ site.current_version }}.deb" class="button"
+            <a href="{{ site.github.releases_url }}/download/{{ site.github.latest_release.tag_name }}/TokenTool-{{ site.github.latest_release.tag_name }}.deb" class="button"
                style="background: transparent url(../assets/images/download-button-linux.png) 0 0 no-repeat; padding-left: 75px;">
               <small>Linux</small>
               .deb
             </a>
-            <a href="{{ site.github.releases_url }}/download/{{ site.current_version }}/TokenTool-{{ site.current_version }}.jar" class="button"
+            <a href="{{ site.github.releases_url }}/download/{{ site.github.latest_release.tag_name }}/TokenTool-{{ site.github.latest_release.tag_name }}.jar" class="button"
                style="background: transparent url(../assets/images/download-button-jar.png) 0 0 no-repeat; padding-left: 75px;">
               <small>Java Archive</small>
               .jar
